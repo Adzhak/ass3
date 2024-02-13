@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/weather.css">
+    <title>Weather</title>
+</head>
+<body>
+    <h2>City Info</h2>
+    <form action="/weather" method="post">
+        <input type="text" id="city" name="city" placeholder="Enter city" required>
+        <br><br>
+        <button type="submit">Submit</button>
+        <div id='map'></div>
+        <button class="back"><a href="/home">Go Back</a></button>
+        <button class="back"><a href="/historyWeather">History</a></button>
+    </form>
+
+</body>
+
+</html>
